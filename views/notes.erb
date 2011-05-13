@@ -1,0 +1,8 @@
+<% count = 1 %>
+<% @notes.each do |p| %>
+  <div class="notes">
+    <h2>Notes for slide <%= count %></h2>
+    <p><%= cleaned(p.content) %></p>
+  </div>
+  <% count += 1 %>
+<% end %>

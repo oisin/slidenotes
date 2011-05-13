@@ -1,0 +1,50 @@
+body {
+	background-color:#3c3c3c;
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+	text-shadow: #111 0px 2px 2px;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+#urlhere {
+	font-size: 20px;
+	text-align: center;
+	width: 40% ;
+	font-style: italic;
+	font-color: #3C3C3C;
+}
+
+#banner {
+  font-family: 'Gill Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+	text-shadow: #000000 -2px -2px 0px;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+	text-shadow: #000000 -2px -2px 0px;
+	font-style: italic;  
+}
+
+p {
+  font-family: 'Gill Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.myButton input {
+  margin-top: 70px;
+  background:url(/img/btn_1.png) no-repeat;
+  cursor:pointer;
+  width: 143px;
+  height: 48px;
+  border: none;
+  font-weight: bold;
+}
