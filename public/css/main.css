@@ -14,6 +14,7 @@ body {
 	width: 40% ;
 	font-style: italic;
 	font-color: #3C3C3C;
+	margin-top: 50px;
 }
 
 #banner {
@@ -22,6 +23,7 @@ body {
   font-weight: lighter;
   text-align: center;
 	text-shadow: #000000 -2px -2px 0px;
+	margin-top: 100px;
 }
 
 h2 {
@@ -41,10 +43,17 @@ p {
 
 .myButton input {
   margin-top: 70px;
-  background:url(/img/btn_1.png) no-repeat;
+  background:url(/img/btn.png) no-repeat;
   cursor:pointer;
-  width: 143px;
-  height: 48px;
+  width: 240px;
+  height: 100px;
   border: none;
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-color: #FFFFF;
+}
+
+.myButton input:hover  {
+  background: url(/img/btn_hover.png) no-repeat;
 }

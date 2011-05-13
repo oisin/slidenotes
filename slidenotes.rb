@@ -11,9 +11,13 @@ module Slidenotes
     end
     
     post "/notes" do
-      doc = Nokogiri::HTML(open(params[:url]))
-      @notes = doc.css("#notesList p")
-      erb :notes
+      if params[:url].nil? || "#{params[:url]}" == ""
+        redirect '/'
+      else
+        doc = Nokogiri::HTML(open(params[:url]))
+        @notes = doc.css("#notesList p")
+        erb :notes
+      end
     end
     
     helpers do
