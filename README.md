@@ -10,4 +10,4 @@ So this is a trivial application that allows you to submit the URL of the slides
 
 This was a sad obsession of mine for a few hours, and now, thankfully, it's over. You can get to a running version of the application at [slidenotes.heroku.com](http://slidenotes.heroku.com). The code doesn't do any capture of visits or anything like that, it's just a fast hack.
 
-
+*update* : the notes seem to work now so you probably don't need this at all, yay, etc.
