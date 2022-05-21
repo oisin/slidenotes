@@ -1,3 +1,9 @@
+
+|Public Health Warning|
+|:-:|
+| Previously, this was a work in progress. Now it's just a historical work. Please consider this project _OBSOLETE_
+|**DO NOT USE**
+
 # Slidenotes
 
 There's a bug of some sort in the Slideshare system, which means that your presentation's presenter notes just don't show up. For some people, all the value and detail and research is in those notes, and not having them is a serious blow to the quality of the presentation.

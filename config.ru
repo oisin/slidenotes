@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'slidenotes'
+require_relative './slidenotes'
 
 use Rack::Static, :urls => ['/css', '/img'], :root => 'public'
 
